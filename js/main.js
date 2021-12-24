@@ -56,6 +56,8 @@
         $('#videoModal').on('hide.bs.modal', function (e) {
             $("#video").attr('src', $videoSrc);
         })
+        
+        $('.your-class').slick();
     });
 
 
